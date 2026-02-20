@@ -52,3 +52,22 @@ display: grid;
 grid-template-columns: auto auto auto;
 column-gap: 20px;
 } 
+@media(max-width:768px) {
+  nav{
+    width: 100%;
+    background-color:rgba(177, 209, 32, 0.788);
+  }
+  div.i{
+    display:none;
+  }
+  img.p1{
+    width:100%;
+    height: 50%;
+  }
+  img.p2{
+    display:none;
+  }
+  img.p3{
+    display:none;
+  }
+}
